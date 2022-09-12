@@ -3706,7 +3706,17 @@ wpo-features-section
 }
 .wpo-features-section .cuadroNaranjaI .ab-btn{
   position: absolute;
-  Left: 10px;
+  Left: 50px;
+  padding: 35px 35px;
+  background-color: #f3ab41;
+  font-size: 22px;
+  font-size: 1.2222222222rem;
+  font-family:'Roboto', sans-serif;
+  color: #fff;
+}
+.wpo-features-section .cuadroNaranjaD .ab-btn{
+  position: absolute;
+  Right: 50px;
   padding: 35px 35px;
   background-color: #f3ab41;
   font-size: 22px;
@@ -3716,7 +3726,6 @@ wpo-features-section
 }
 .wpo-features-section .cuadroAzul .ab-btn{
   position: absolute;
-  Left: 10px;
   padding: 35px 35px;
   background-color: #004585;
   font-size: 22px;
