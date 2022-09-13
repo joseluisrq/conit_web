@@ -93,7 +93,10 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5{
+  color: #fff;
+  font-family:'Roboto', sans-serif;
+}
 h6 {
   color: #062265;
   font-family:'Roboto', sans-serif;
@@ -145,7 +148,7 @@ a:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 @media (max-width: 767px) {
   .section-padding {
@@ -3683,10 +3686,28 @@ wpo-features-section
   }
 }
 
-.wpo-about-section .cuadroInicio .ab-btn{
+.wpo-about-section .cuadroI .ab-btn{  
+  padding: 45px 150px;
+  background-color: #004585;
+  font-size: 22px;
+  font-family:'Roboto', sans-serif;
+  color: #fff;
+}
+
+.wpo-about-section .cuadroD .ab-btn{
   position: absolute;
-  left: 0px;
-  padding: 35px 45px;
+  right: 0px;
+  padding: 45px 150px;
+  background-color: #004585;
+  font-size: 22px;
+  font-size: 1.2222222222rem;
+  font-family:'Roboto', sans-serif;
+  color: #fff;
+}
+.wpo-functions-section .cuadroD .ab-btn{
+  position: absolute;
+  right: 0px;
+  padding: 45px 150px;
   background-color: #004585;
   font-size: 22px;
   font-size: 1.2222222222rem;
@@ -3694,45 +3715,6 @@ wpo-features-section
   color: #fff;
 }
 
-.wpo-about-section .cuadroDos .ab-btn{
-  position: absolute;
-  right: 0px;
-  padding: 35px 45px;
-  background-color: #004585;
-  font-size: 22px;
-  font-size: 1.2222222222rem;
-  font-family:'Roboto', sans-serif;
-  color: #fff;
-}
-.wpo-features-section .cuadroNaranjaI .ab-btn{
-  position: absolute;
-  Left: 50px;
-  padding: 35px 35px;
-  background-color: #f3ab41;
-  font-size: 22px;
-  font-size: 1.2222222222rem;
-  font-family:'Roboto', sans-serif;
-  color: #fff;
-}
-.wpo-features-section .cuadroNaranjaD .ab-btn{
-  position: absolute;
-  Right: 50px;
-  padding: 35px 35px;
-  background-color: #f3ab41;
-  font-size: 22px;
-  font-size: 1.2222222222rem;
-  font-family:'Roboto', sans-serif;
-  color: #fff;
-}
-.wpo-features-section .cuadroAzul .ab-btn{
-  position: absolute;
-  padding: 35px 35px;
-  background-color: #004585;
-  font-size: 22px;
-  font-size: 1.2222222222rem;
-  font-family:'Roboto', sans-serif;
-  color: #fff;
-}
 
 .wpo-about-section .about-img,
 .wpo-about-section-s2 .about-img {
@@ -4274,6 +4256,17 @@ wpo-features-section
 }
 
 /* 3.7 wpo-testimonials-section */
+.wpo-testimonials-section .cuadroD .ab-btn{
+  position: absolute;
+  right: 0px;
+  padding: 45px 150px;
+  background-color: #004585;
+  font-size: 22px;
+  font-size: 1.2222222222rem;
+  font-family:'Roboto', sans-serif;
+  color: #fff;
+}
+
 .wpo-testimonials-section {
   background: #f9f5f3;
 }
@@ -4386,6 +4379,22 @@ wpo-features-section
 }
 .wpo-testimonials-section .testimonials-wrapper .owl-nav {
   display: none;
+}
+
+/*Star wpo-conditions-section */
+
+
+.titulo{
+  font-size: 22px;
+  padding: 45px 150px;
+  background-color: #004585;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .titulo{
+    padding: 5px 50px;
+  }
 }
 
 /* 3.8 Start wpo-support-section */
