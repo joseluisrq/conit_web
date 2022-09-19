@@ -19,7 +19,7 @@ Version:        1.0.0
 	3.1 wpo-hero-slider
 	3.2 wpo-work-section
 	3.3 wpo-about-section
-	3.4 wpo-service-section
+	3.4 wpo-servicfe-section
 	3.5 wpo-fun-fact-section
 	3.6 wpo-project-section
 	3.7 wpo-testimonials-section
@@ -92,9 +92,12 @@ p {
 h1,
 h2,
 h3,
-h4,
+h4{
+  color: #062265;
+  font-family:'Roboto', sans-serif;
+}
 h5{
-  color: #fff;
+  color: #062265;
   font-family:'Roboto', sans-serif;
 }
 h6 {
@@ -3846,7 +3849,7 @@ wpo-features-section
 @media (max-width: 991px) {
   .wpo-about-section .about-content,
 .wpo-about-section-s2 .about-content {
-    padding-top: 120px;
+    padding-top: 30px;
   }
 }
 .wpo-about-section .about-content .section-title,

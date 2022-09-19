@@ -1,3 +1,14 @@
+/*Alinear Divs*/
+.wpo-about-section .centrar{
+    float: left;
+}
+
+
+/*Logo tamaño*/
+.logoP{
+    width: 140%;
+}
+
 /*Cuadro grande*/
 .cuadroGrande{
     padding: 45px 150px;
@@ -24,6 +35,7 @@
     padding: 45px 150px;
     background-color: #004585;
     color: #fff;
+    float: right;
 }
 
 @media (max-width: 767px) {
